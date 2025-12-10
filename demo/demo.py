@@ -37,8 +37,8 @@ def run_demo(data_dir, checkpoints_dir, results_dir):
     model_path = checkpoints_path / "palantir_lstm.pth"
     feature_scaler_path = checkpoints_path / "feature_scaler.pkl"
     close_scaler_path = checkpoints_path / "close_scaler.pkl"
-    pltr_path = data_path / "PLTR (11).csv"
-    ixic_path = data_path / "^IXIC (10).csv"
+    pltr_path = data_path / "PLTR_2025-12-04.csv"
+    ixic_path = data_path / "IXIC_2025-12-04.csv"
 
     missing = []
     if not model_path.exists(): missing.append(str(model_path))

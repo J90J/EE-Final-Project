@@ -29,8 +29,8 @@ The project is structured for reproducibility and ease of use, separating data p
 
 2.  **Prepare Data**:
     *   This project requires two CSV files:
-        *   `PLTR (11).csv` (Palantir historical data)
-        *   `^IXIC (10).csv` (NASDAQ historical data)
+        *   `PLTR_2025-12-04.csv` (Palantir historical data)
+        *   `IXIC_2025-12-04.csv` (NASDAQ historical data)
     *   Place these files inside the `data/` directory.
 
 ## How to Run

@@ -29,8 +29,8 @@ def train(data_dir, output_dir):
     output_path.mkdir(exist_ok=True, parents=True)
 
     # 1. Load Data
-    pltr_path = data_path / "PLTR (11).csv"
-    ixic_path = data_path / "^IXIC (10).csv"
+    pltr_path = data_path / "PLTR_2025-12-04.csv"
+    ixic_path = data_path / "IXIC_2025-12-04.csv"
 
     if not pltr_path.exists() or not ixic_path.exists():
         print(f"Error: Data files not found in {data_dir}")
